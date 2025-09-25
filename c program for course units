@@ -1,0 +1,20 @@
+//Simple C program (Hello World),
+/*
+Name:Stacy
+Reg:CT100/G/26175/25
+Description:Semester units
+*/
+#include <stdio.h>//pre-processor directive
+
+//main function
+int main ( )  {
+      printf("Analogue Electronics/n ");
+      printf("Communication skills/n");
+	  printf("Mathematics for science/n");
+	  printf("Fundamentals of ICT/n");
+	  printf("Computer system and organisation/n");
+	  printf("Introduction to programming and alogarithms/n");
+      printf("Essentials of accounting/n");
+      printf("Introduction to computer applications/n");
+      return 0;
+}

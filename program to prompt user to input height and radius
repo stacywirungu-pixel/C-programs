@@ -1,0 +1,23 @@
+//simple c program to prompt user to input height,radius,volume and surface_area
+/*
+name:stacy irungu 
+reg:CT100/G/26175/25
+description:program to prompt user to input height,radius,volume and surface_area
+*/
+#include<stdio.h>
+#define PI 3.14159
+
+int main( ){
+	float radius, height;
+	float volume, surface_area;
+	printf("enter radius of the cylinder:");
+	scanf("%f",&radius);
+	printf("enter height of the cylinder:");
+	scanf("%f",&height);
+	volume=PI * radius * radius * height;
+	surface_area=2 * PI * radius * radius + 2 * PI * radius * height;
+	printf("volume=%.2f\n",volume);
+	printf("surface_area=%.2f\n",surface_area);
+	return 0;
+	
+}
